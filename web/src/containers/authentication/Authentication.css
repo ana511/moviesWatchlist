@@ -1,0 +1,26 @@
+.register, .login{
+  padding : 30px;
+}
+
+form{
+  max-width : 500px;
+}
+
+.register h1,
+.register form,
+.login h1,
+.login form{
+  display : block;
+  margin : 0 auto;
+  text-align : center;
+}
+
+.register form,
+.login form{
+  margin-top : 30px;
+}
+
+.register .button,
+.login .button{
+  text-align: center;
+}

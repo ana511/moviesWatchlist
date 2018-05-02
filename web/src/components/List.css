@@ -1,0 +1,31 @@
+.list{
+  display : flex;
+  flex-wrap : wrap;
+  justify-content: space-between;
+}
+
+.list > div{
+  background-color : white;
+  padding : 15px;
+  display : flex;
+  margin-bottom : 15px;
+  width : 48%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list > div img{
+  margin-right : 15px;
+}
+
+.list > div div{
+  display : flex;
+  flex-direction: column;
+}
+
+.list > div .overview{
+  flex-grow : 1;
+}
+
+.list > div a{
+  color : #e2412f;
+}

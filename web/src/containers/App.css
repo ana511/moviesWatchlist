@@ -1,0 +1,18 @@
+h2{
+	color : #e2412f;
+	font-size : 24px;
+}
+
+strong{
+	font-weight : bold;
+}
+
+main{
+  min-height : calc(100vh - 357px);
+  background-color : #eee;
+}
+
+.app{
+  display : flex;
+  flex-direction: column;
+}

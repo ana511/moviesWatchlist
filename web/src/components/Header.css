@@ -1,0 +1,92 @@
+.header{
+	background-color : #1a1d24;
+	color : white;
+}
+
+.header a{
+	color : white;
+	text-decoration : none;
+}
+
+.header .row{
+	display : flex;
+	align-items: center;
+	margin : 0;
+	padding : 0 30px;
+}
+
+.header .row:last-child{
+	padding : 0 30px 20px 30px;
+}
+
+.header .row .col{
+	padding : 0 !important;
+}
+
+.header nav{
+	padding-right : calc(25vw - 30px);
+	background-color : transparent;
+	box-shadow : none;
+}
+
+.header nav .button-collapse{
+	margin : 0;
+	padding : 0;
+}
+
+.header #nav-mobile{
+	background-color : #1a1d24;
+}
+
+.header nav a{
+	padding : 0 15px;
+}
+
+.header .signin a{
+	padding : 0 15px;
+}
+
+.header .search{
+	padding : 5px 10px;
+	background-color : #666;
+	color : white;
+	border : 1px solid transparent;
+	margin-left : 15px;
+	margin-bottom : 0;
+	border-radius : 15px;
+	width : 100%;
+	height : 1.5rem;
+}
+
+input[type=search]:focus:not([readonly]){
+	border-bottom : 1px solid #e2412f;
+	box-shadow: 0 1px 0 0 #e2412f;
+}
+
+@media screen and (min-width : 320px) and (max-width : 603px){
+	.header div.row:first-child{
+		flex-direction: column;
+	}
+
+	.header div.row:first-child > *{
+		display : block;
+		width : 100%;
+	}
+
+	.header .signin{
+		text-align: right;
+	}
+
+	.header nav{
+		padding-right :0;
+	}
+
+	.header .brand-logo{
+		width : 100%;
+		text-align: right;
+	}
+
+	.header .row .col.s12{
+		display : flex;
+	}
+}

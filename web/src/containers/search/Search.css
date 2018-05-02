@@ -1,0 +1,35 @@
+.search{
+  padding : 30px;
+}
+
+.search .results{
+  display : flex;
+  flex-wrap : wrap;
+  justify-content: space-between;
+}
+
+.search .results > div{
+  background-color : white;
+  padding : 15px;
+  display : flex;
+  margin-bottom : 15px;
+  width : 48%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search .results > div img{
+  margin-right : 15px;
+}
+
+.search .results > div div{
+  display : flex;
+  flex-direction: column;
+}
+
+.search .results > div .overview{
+  flex-grow : 1;
+}
+
+.search .results > div a{
+  color : #e2412f;
+}

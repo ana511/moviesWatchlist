@@ -1,0 +1,8 @@
+.movieDetails img{
+  width : 100%;
+  max-width : 100%;
+}
+
+.movie a{
+  color : #e2412f !important;
+}
